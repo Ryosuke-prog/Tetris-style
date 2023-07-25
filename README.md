@@ -1,4 +1,4 @@
-# Name（Tetris-Style）
+# Tetris-Style
  
 A simple Tetris game implemented in C++ and ncurses.
  
