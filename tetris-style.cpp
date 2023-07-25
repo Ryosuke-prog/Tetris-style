@@ -27,7 +27,6 @@ private:
     void initializeBlock() {
         currentBlock = std::vector<std::vector<bool> >(BLOCK_SIZE, std::vector<bool>(BLOCK_SIZE, false));
 
-        // ランダムにブロックの形を生成
         std::random_device rd;
         std::mt19937 gen(rd());
         std::uniform_int_distribution<> dis(0, 6);
