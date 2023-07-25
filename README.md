@@ -21,7 +21,7 @@ g++ tetris-style.cpp -lncurses -o tetris
 ```keyboad
 
     a/d: Move left/right
-    s : Soft drop
+    s: Soft drop
     w: Rotate
     crtl-c: end the game
 
