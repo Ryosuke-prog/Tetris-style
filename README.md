@@ -11,7 +11,7 @@ g++
 ncurses
 
 ```bash
-g++ tetris-style.cpp -lncurses -o tetris
+clang++ -std=c++17 -lncurses -ltinfo tetris-style.cpp -o tetris
 
 ./tetris
 ```
